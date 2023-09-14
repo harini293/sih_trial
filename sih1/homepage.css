@@ -1,0 +1,109 @@
+.intro{--layer-0: #fff;
+--layer-1: #f4f4f4;
+--layer-2: #eaeaea;
+--text-color: #333;
+--text-color-secondary: #848484;
+--primary-color: #007ad9;
+--primary-color-text: #fff;
+font-family: NewsGothicBT-Roman;
+box-sizing: border-box;
+color: #4c4c4c;
+line-height: 1.2;
+letter-spacing: 1px;
+transition: font .15s ease-in-out;
+margin: 0;
+text-align: center;
+font-size: 2.5rem;
+padding: 54px 24px 11px;
+}
+
+.state-list{--layer-0: #fff;
+--layer-1: #f4f4f4;
+--layer-2: #eaeaea;
+--text-color: #333;
+--text-color-secondary: #848484;
+--primary-color: #007ad9;
+--primary-color-text: #fff;
+font-family: NewsGothicBT-Roman;
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+height: 100%;
+order: 1;
+padding: 0;
+}
+
+.state-selection-item{
+    --layer-0: #fff;
+    --layer-1: #f4f4f4;
+    --layer-2: #eaeaea;
+    --text-color: #333;
+    --text-color-secondary: #848484;
+    --primary-color: #007ad9;
+    --primary-color-text: #fff;
+    font-family: NewsGothicBT-Roman;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto 54px;
+    flex: 1 1 auto;
+}
+
+.icon-order{
+    --layer-0: #fff;
+    --layer-1: #f4f4f4;
+    --layer-2: #eaeaea;
+    --text-color: #333;
+    --text-color-secondary: #848484;
+    --primary-color: #007ad9;
+    --primary-color-text: #fff;
+    font-family: NewsGothicBT-Roman;
+    text-align: center;
+    box-sizing: border-box;
+    color: #00789e;
+    cursor: pointer;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    transition: font .15s ease-in-out;
+    text-decoration: none;
+    font-size: 1.6875rem;
+}
+.state-icon{
+    --layer-0: #fff;
+    --layer-1: #f4f4f4;
+    --layer-2: #eaeaea;
+    --text-color: #333;
+    --text-color-secondary: #848484;
+    --primary-color: #007ad9;
+    --primary-color-text: #fff;
+    font-family: NewsGothicBT-Roman;
+    text-align: center;
+    color: #00789e;
+    cursor: pointer;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    font-size: 1.6875rem;
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+    padding: 0 0 16px;
+    height: 122px;
+    width: 122px;
+}
+
+.state-selection{
+    --layer-0: #fff;
+    --layer-1: #f4f4f4;
+    --layer-2: #eaeaea;
+    --text-color: #333;
+    --text-color-secondary: #848484;
+    --primary-color: #007ad9;
+    --primary-color-text: #fff;
+    font-family: NewsGothicBT-Roman;
+    box-sizing: border-box;
+    background-color: #f3fbfd;
+    height: 100vh;
+    overflow-y: scroll;
+    position: relative;
+    width: 100%;
+}

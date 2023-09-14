@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name ="viewport" content = "height = device-height, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>well prediction</title>
+        <link rel="stylesheet" href="./homepage.css"/>
+    </head>
+
+    <body>
+        <app-root ng-version="9.1.13">
+            <router-outlet></router-outlet>
+            <jurisdiction-selection>
+                <global-nav>
+                    <header class="nav-header">
+                        <div class="nav-header__container">
+                            <button aria-label="Menu Button" type="button" apphighlight="" 
+                            class="nav-hamburger">
+                            <img src="../../../assets/images/icons/navbar/menu_medium.svg" class="nav-hamburger-img">
+                        </button>
+                        <a href="https://www.duke-energy.com/" target="_self" class="nav-logo">
+                            <img src="../../../assets/images/icons/navbar/logoduke.svg" class="nav-logo-img">
+                        </a>
+                        <!---->
+                    </div>
+                </header>
+                <!---->
+                <!---->
+            </global-nav>
+            <!---->
+            <section class="state-selection">
+                <loading-panel>
+                    <!---->
+                </loading-panel>
+                <div class="state-list">
+                    <h2 class="intro">
+                        Water Well Detection
+                        <br>
+                        Select The State
+                    </h2>
+                    <div class="state-selection-icon">
+                        <a href="./karnataka.html" class="icon-order">
+                            <img src="./karnataka_icon.png" alt="karnataka state icon" class="state-icon">
+                            <span class="state-item-text">Karnataka</span>
+                        </a>
+                    </div>
+                    <div class="state-selection-icon">
+                        <a href="./tamilnadu.html" class="icon-order">
+                            <img src="./karnataka_icon.png" alt="karnataka state icon" class="state-icon">
+                            <span class="state-item-text">Tamil Nadu</span>
+                        </a>
+                    </div>
+                    <div class="state-selection-icon">
+                        <a href="./maharashtra.html" class="icon-order">
+                            <img src="./karnataka_icon.png" alt="karnataka state icon" class="state-icon">
+                            <span class="state-item-text">Maharashtra</span>
+                        </a>
+                    </div>
+                </div>
+
+
+            </section>
+
+
+    </body>
+</html>
